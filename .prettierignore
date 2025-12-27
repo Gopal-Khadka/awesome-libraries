@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Version control
+.git/
+
+# IDE
+.vscode/
+.idea/
+
+# Docsify specific
+_404.md
+.nojekyll
+
+# Build output
+dist/
+build/
+assets/output.css
