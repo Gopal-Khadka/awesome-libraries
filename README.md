@@ -1,4 +1,4 @@
-# Awesome Learning 📚
+# Awesome Libraries 📚
 
 > A curated list of awesome libraries, tools, and resources for building modern applications
 
@@ -7,7 +7,7 @@
 
 ## Welcome
 
-Welcome to **Awesome Learning** - your one-stop resource for discovering high-quality libraries, frameworks, and tools across multiple technology stacks. Whether you're building a modern web application, crafting APIs, or automating workflows, you'll find curated resources to accelerate your development journey.
+Welcome to **Awesome Libraries** - your one-stop resource for discovering high-quality libraries, frameworks, and tools across multiple technology stacks. Whether you're building a modern web application, crafting APIs, or automating workflows, you'll find curated resources to accelerate your development journey.
 
 ## What's Inside
 
@@ -27,7 +27,7 @@ This collection covers 8 essential technology ecosystems:
 - **[Python](docs/languages/python.md)** - Python libraries for web, data science, and more
 - **[Bash](docs/languages/bash.md)** - Shell scripting tools, CLI utilities, and productivity
 
-## Why Awesome Learning?
+## Why Awesome Libraries?
 
 - ✅ **Curated Quality** - Only actively maintained, well-documented resources
 - ✅ **Organized Structure** - Easy to navigate by technology and category

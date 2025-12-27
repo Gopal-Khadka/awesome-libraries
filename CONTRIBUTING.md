@@ -1,6 +1,6 @@
-# Contributing to Awesome Learning
+# Contributing to Awesome Libraries
 
-Thank you for considering contributing to Awesome Learning! This guide will help you add valuable resources to our curated collection.
+Thank you for considering contributing to Awesome Libraries! This guide will help you add valuable resources to our curated collection.
 
 ## How to Contribute
 
@@ -106,4 +106,4 @@ If you have questions about contributing, feel free to:
 - Check existing issues and PRs for similar topics
 - Reach out to maintainers
 
-Thank you for helping make Awesome Learning better!
+Thank you for helping make Awesome Libraries better!
