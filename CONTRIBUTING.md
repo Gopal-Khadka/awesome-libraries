@@ -21,6 +21,7 @@ Each resource should follow this format:
 ```
 
 **Example:**
+
 ```markdown
 - [Vite](https://vitejs.dev/) - Next generation frontend tooling with instant server start and lightning-fast HMR
 ```
@@ -70,12 +71,14 @@ pnpm run dev
 ## What We're Looking For
 
 ### High Priority
+
 - Modern, actively maintained tools
 - Official documentation and learning resources
 - Popular community-recommended libraries
 - Tools with excellent developer experience
 
 ### Lower Priority
+
 - Deprecated or unmaintained projects
 - Very niche tools with limited adoption
 - Resources that duplicate existing entries
@@ -98,6 +101,7 @@ Please note that this project follows a [Code of Conduct](CODE_OF_CONDUCT.md). B
 ## Questions?
 
 If you have questions about contributing, feel free to:
+
 - Open an issue for discussion
 - Check existing issues and PRs for similar topics
 - Reach out to maintainers

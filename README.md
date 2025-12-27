@@ -63,8 +63,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Support
 
-- 🐛 [Report Issues](https://github.com/your-username/awesome-learning/issues)
-- 💬 [Start a Discussion](https://github.com/your-username/awesome-learning/discussions)
+- 🐛 [Report Issues](https://github.com/Gopal-Khadka/awesome-libraries/issues)
+- 💬 [Start a Discussion](https://github.com/Gopal-Khadka/awesome-libraries/discussions)
 - ⭐ Star this repo if you find it helpful!
 
 ---
