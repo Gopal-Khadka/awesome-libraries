@@ -13,4 +13,4 @@
   - [Bash](/docs/languages/bash.md)
 
 - [🤝 Contributing](CONTRIBUTING.md)
-- [📖 GitHub](https://github.com/your-username/awesome-learning)
+- [📖 GitHub](https://github.com/Gopal-Khadka/awesome-libraries)

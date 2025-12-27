@@ -8,10 +8,9 @@
     "dev": "pnpm run css:watch & pnpm docsify serve --open",
     "start": "pnpm run css:build && pnpm docsify serve",
     "build": "pnpm run css:build",
-    "format": "prettier --write \"**/*.md\"",
-    "format:check": "prettier --check \"**/*.md\"",
-    "lint": "remark . --quiet --frail",
-    "test": "pnpm run format:check && pnpm run lint"
+    "format": "pnpm exec prettier --write ./README.md",
+    "lint": "npx awesome-lint ./README.md",
+    "test": "pnpm run format && pnpm run lint"
   },
   "keywords": [
     "awesome",
@@ -29,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/awesome-learning"
+    "url": "https://github.com/Gopal-Khadka/awesome-libraries"
   },
   "license": "MIT",
   "packageManager": "pnpm@10.26.2",

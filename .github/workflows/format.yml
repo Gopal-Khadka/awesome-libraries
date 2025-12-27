@@ -1,36 +1,29 @@
-name: Format Check
+name: Format the Readme file.
 
+# This action works with pull requests and pushes
 on:
   pull_request:
-    branches: [main, develop]
   push:
-    branches: [main, develop]
+    branches:
+      - main
 
 permissions:
   contents: read
+  pages: write   
 
 jobs:
   prettier:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
+          # Make sure the actual branch is checked out when running on pull requests
           ref: ${{ github.head_ref }}
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.3
         with:
-          version: 9
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'pnpm'
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Check formatting
-        run: pnpm run format:check
+          # This part is also where you can pass other options, for example:
+          prettier_options: -c ./README.md 
