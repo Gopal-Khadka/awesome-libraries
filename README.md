@@ -53,6 +53,11 @@ We welcome contributions from the community! Whether you want to:
 
 Please read our [Contributing Guidelines](CONTRIBUTING.md) to get started.
 
+## Credits
+- [Docsify](https://docsify.js.org/#/)
+- [How to write good documentation with Docsify](https://www.freecodecamp.org/news/how-to-write-good-documentation-with-docsify/)
+- [Awesome Next.js](https://gitingest.com/officialrajdeepsingh/awesome-nextjs/)
+
 ## Code of Conduct
 
 This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
