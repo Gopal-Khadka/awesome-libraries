@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+/* Custom Docsify overrides with Tailwind utilities */
+@layer components {
+  /* Rounded elements with minimal borders */
+  pre,
+  code {
+    @apply rounded-lg border-none;
+  }
+
+  .search input {
+    @apply rounded-full border border-gray-200;
+  }
+
+  button,
+  .docsify-copy-code-button {
+    @apply rounded-md;
+  }
+
+  /* Sidebar styling */
+  .sidebar {
+    @apply border-r border-gray-200;
+  }
+
+  /* Content area */
+  .markdown-section {
+    @apply max-w-4xl;
+  }
+
+  /* Links with minimal underline */
+  .markdown-section a {
+    @apply text-blue-500 hover:text-blue-700 transition-colors;
+  }
+
+  /* Code blocks */
+  .markdown-section pre {
+    @apply bg-gray-900 text-gray-100 p-4;
+  }
+
+  /* Inline code */
+  .markdown-section code {
+    @apply bg-gray-100 text-gray-900 px-1 py-0.5 text-sm;
+  }
+
+  /* Blockquotes */
+  .markdown-section blockquote {
+    @apply border-l-4 border-blue-500 pl-4 italic text-gray-600;
+  }
+
+  /* Tables */
+  .markdown-section table {
+    @apply border border-gray-200 rounded-lg overflow-hidden;
+  }
+
+  .markdown-section th {
+    @apply bg-gray-100 font-semibold;
+  }
+
+  .markdown-section td,
+  .markdown-section th {
+    @apply border border-gray-200 px-4 py-2;
+  }
+}
+
+/* Theme customization */
+:root {
+  --docsify-theme-color: theme('colors.blue.500');
+  --base-font-size: 16px;
+  --base-line-height: 1.6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500;
+}

@@ -1,0 +1,46 @@
+{
+  "name": "awesome-learning",
+  "version": "1.0.0",
+  "description": "A curated list of awesome libraries for building applications - covering React, Next.js, FastAPI, Django, JavaScript, TypeScript, Python, and Bash",
+  "scripts": {
+    "css:build": "tailwindcss -i ./assets/input.css -o ./assets/output.css",
+    "css:watch": "tailwindcss -i ./assets/input.css -o ./assets/output.css --watch",
+    "dev": "pnpm run css:watch & pnpm docsify serve --open",
+    "start": "pnpm run css:build && pnpm docsify serve",
+    "build": "pnpm run css:build",
+    "format": "prettier --write \"**/*.md\"",
+    "format:check": "prettier --check \"**/*.md\"",
+    "lint": "remark . --quiet --frail",
+    "test": "pnpm run format:check && pnpm run lint"
+  },
+  "keywords": [
+    "awesome",
+    "awesome-list",
+    "react",
+    "nextjs",
+    "fastapi",
+    "django",
+    "javascript",
+    "typescript",
+    "python",
+    "bash",
+    "learning",
+    "resources"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/awesome-learning"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.26.2",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "docsify-cli": "^4.4.4",
+    "prettier": "^3.7.4",
+    "remark-cli": "^12.0.1",
+    "remark-lint": "^10.0.1",
+    "remark-preset-lint-consistent": "^6.0.1",
+    "remark-preset-lint-recommended": "^7.0.1",
+    "tailwindcss": "^4.0.0"
+  }
+}
