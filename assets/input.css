@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@source "**/*.html";
+@source "**/*.md";
+
 /* Custom Docsify overrides with Tailwind utilities */
 @layer components {
   /* Rounded elements with minimal borders */
